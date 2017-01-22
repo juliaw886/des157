@@ -26,21 +26,27 @@ p{
 	line-height:150%;
 }
 nav{
-	width:200px;
+	position:fixed;
+	top:0;
+	width::100%;
 	margin:auto;
-	padding-top:100px;
-	padding-bottom:100px;
+}
+ul {
+    list-style-type: none;
+    background-color:black;
+}
+li {
+    display: inline;
+	margin-left:15px;
 }
 a{
 	font-family:helvetica;
-	font-size:10pt;
+	font-size:20pt;
 	text-transform:uppercase;
-	color:black;
+	color:white;
 	text-decoration:none;
 }
-a:visited {
-	color:gray;
-}
+
 img{
 	padding-top:20px;
 }
