@@ -48,8 +48,12 @@ a:visited {
 a:hover {
 	color:#bfc4cc
 }
+a footer{
+	font-size:20pt;
+}
 footer {
 	position:fixed;
+	width:50%
 	bottom:10%;
 	background-color:#b7c0ce;
 	padding:10px;
