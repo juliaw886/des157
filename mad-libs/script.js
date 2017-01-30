@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
 
         //concantonate a message after user submits input
-        myMsg.innerHTML = "In " + userHome + " born and raised, \n on the " + userPlace + " was where I spent most of my days " + verb1 + "n' out " + verb2 + "n' " + verb3 + "n' all cool and all shooting some " + ball + " outside of the school when a couple of  " + typePerson + " who were up to no good started making trouble in my neighborhood I got in one little fight and my " + familyMember + " got scared. She said: You're moving with your " + rel1 + " and " + rel2 + "in " + smallTown;
+        myMsg.innerHTML = "In " + userHome + " born and raised, on the " + userPlace + " was where I spent most of my days "+ "<br>" + verb1 + "n' out " + verb2 + "n' " + verb3 + "n' all cool and all shooting some " + ball + "s outside of the school"+"<br>"+" when a couple of  " + typePerson + "s who were up to no good started making trouble in my neighborhood"+"<br>"+ " I got in one little fight and my " + familyMember + " got scared"+"<br>"+ "She said, \"You're moving with your " + rel1 + " and " + rel2 + " in " + smallTown + "\"";
         //Change the message from displayNone to displayBlock
         myMsg.style.display = "block";
         //prevent the page from reloading
