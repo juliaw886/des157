@@ -66,25 +66,11 @@ a:hover {
 
 footer a {
   font-size: 10pt;
-  color: black;
-}
-
-footer a:visited {
-  color: gray;
-}
-
-footer ul{
-  list-style-type:none;
-}
-
-footer li a{
-  display:block;
-  float:left;
+  color: pink;
 }
 
 footer {
   position:relative;
   margin-top:300px;
   left:30%;
-  background-color:gray;
 }
