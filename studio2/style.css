@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+body {
+  font-family: 'Nixie One';
+  color: #fab6e5;
+  background-color: #37ca33;
+  font-size: 55pt;
+  margin: 50px;
+}
+
+header {
+  margin-bottom: 50px;
+  font-size: 80pt;
+}
+
+section {
+  float: left;
+  margin-left: 10px;
+}
+
+article p {
+  color: #E9A027;
+  font-family: 'stardos stencil';
+  font-size: 40pt;
+  padding: 25px;
+  float: left;
+  background: white;
+  border-radius: 30pt;
+  margin: 30px;
+  text-align:center;
+  line-height:200%;
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayBlock {
+  display: block;
+}
+
+input[type="text"] {
+  font-family: 'Poiret One', cursive;
+  font-size: 30pt;
+  margin-left: 40px;
+  margin-top: 30px;
+}
