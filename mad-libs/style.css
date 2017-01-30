@@ -14,12 +14,13 @@ body {
   font-family: 'Nixie One';
   color: #fab6e5;
   background-color: #37ca33;
-  font-size: 70pt;
-  margin: 70px;
+  font-size: 55pt;
+  margin: 50px;
 }
 
 header {
   margin-bottom: 50px;
+  font-size: 80pt;
 }
 
 section {
@@ -27,17 +28,13 @@ section {
   margin-left: 10px;
 }
 
-#col1 {}
-
-#col2 {}
-
 article p {
   color: #E9A027;
   font-family: 'stardos stencil';
-  font-size: 20pt;
-  padding: 30px;
+  font-size: 40pt;
+  padding: 25px;
   float: left;
-  background: black;
+  background: white;
   border-radius: 30pt;
   margin: 30px;
 }
@@ -52,13 +49,7 @@ article p {
 
 input[type="text"] {
   font-family: 'Poiret One', cursive;
-  font-size: 15pt;
-  margin-left: 30px;
+  font-size: 30pt;
+  margin-left: 40px;
   margin-top: 30px;
-}
-
-footer a{
-  font-family:helvetica;
-  font-size:15pt;
-  margin-left:10px;
 }
