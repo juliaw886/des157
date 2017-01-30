@@ -1,63 +1,90 @@
 body {
-	background-color:white;
-	position:absolute;
-	left:25%;
-	color:gray;
+  background-color: white;
+  color: gray;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
 }
+
 h1 {
-	
-	font-family:helvetica;
-	font-size:20pt;
+  font-family: 'league script';
+  margin-top: 60px;
+  margin-left: 15%;
+  background: white;
+  font-size: 40pt;
+  color: pink;
 }
+
 h2 {
-	font-family:helvetica;
-	font-size:15pt;
+  font-family: 'league script', serif;
+  font-size: 18pt;
 }
+
 header {
-height: 250px;
-width:800px;
+  height: 250px;
+  width: 800px;
 }
+
+section {
+  margin-left: 10%;
+}
+
 div {
+  float: left;
+  margin-left: 20px;
+  border
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  padding: 5px;
+}
+
+ol li {
+  padding: 5px;
+}
+
+div {
+  margin-right: 40px;
+}
+
+a {
+  color: gray;
+  font-family: 'EB Garamond', serif;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7a88a0
+}
+
+a:hover {
+  color: pink;
+}
+
+footer a {
+  font-size: 10pt;
+  color: black;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer ul{
+  list-style-type:none;
+}
+
+footer li a{
+  display:block;
   float:left;
 }
-section{
-	position:absolute;
-	top:100%;
-}
-ul{
-	list-style-type: square;
-}
-ul li{
-	padding:5px;
-}
-ol li{
-	padding:5px;
-}
-div{
-	margin-right:40px;
-}
-a{
-	color:gray;
-	font-family:arial;
-	text-decoration:none;
-	font-size:9pt;
-}
-a:visited {
-	color:#7a88a0
-}
-a:hover {
-	color:#bfc4cc
-}
-footer a{
-	font-size:10pt;
-	color:black;
-}
-footer a:visited{
-	color:white;
-}
+
 footer {
-	position:fixed;
-	bottom:10%;
-	background-color:#b7c0ce;
-	padding:10px;
+  position:relative;
+  margin-top:300px;
+  left:30%;
 }
