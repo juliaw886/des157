@@ -1,7 +1,7 @@
 body {
   background-color: white;
   color: gray;
-  width: 90%;
+  display: inline-block;
   padding-top: 50px;
 }
 
