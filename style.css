@@ -2,6 +2,7 @@ body {
   background-color: white;
   color: gray;
   display: inline-block;
+  width:80%;
   padding-top: 50px;
 }
 
