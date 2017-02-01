@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Cat's Hat</title>
+  <style>
+    * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: white;
+            background-color: #333;
+            font-size: 11px;
+            margin: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+    img {
+      position:absolute;
+    }
+    #cat {
+      margin-left:400px;
+      margin-top:300px;
+    }
+    #hat{
+      margin-left:400px;
+      margin-top:300px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>The Cat's Hat</h1>
+  <h2>open the console to see the results of the script</h2>
+  <img src="images/cat.png" id="cat" style="position: absolute">
+  <img src="images/hat.png" id="hat" style="position: absolute">
+  <script>
+    var cat = document.querySelector("#cat");
+  var hat = document.querySelector("#hat");
+  var catAngle = 0;
+  var hatAngle = 0;
+  var lastTime = null;
+  //This function finds the difference between lastTime and elapsed time. It then uses time as a variable to change the location of cat and hat
+  function animate(time){
+    if (lastTime!=null)
+      catAngle+=(time-lastTime)*0.0008;
+    	hatAngle+=(time-lastTime)*0.001;
+    lastTime=time;
+    cat.style.top= (Math.sin(catAngle)*100)+"px";
+    cat.style.left= (Math.cos(catAngle)*100)+"px";
+    requestAnimationFrame(animate);
+    hat.style.top= (Math.cos(hatAngle)*100)+"px";
+    hat.style.left= (Math.sin(hatAngle)*100)+"px";
+    }
+    requestAnimationFrame(animate);
+  </script>
+</body>
