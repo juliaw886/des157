@@ -2,14 +2,18 @@ body {
   background-color: white;
   color: gray;
   display: inline-block;
-  width:50%;
   padding-top: 50px;
+  position: absolute;
+  width: 80%;
+  top: 10%;
+  left: 10%;
 }
+
+section {}
 
 h1 {
   font-family: 'league script';
-  margin-top: 60px;
-  margin-left: 15%;
+  margin-left: 10%;
   background: white;
   font-size: 40pt;
   color: pink;
@@ -69,7 +73,8 @@ footer a {
 }
 
 footer {
-  position:relative;
-  margin-top:300px;
-  left:30%;
+  position: relative;
+  margin-top: 300px;
+  left: 10%;
+  margin-left: 10%;
 }
