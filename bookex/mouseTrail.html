@@ -1,0 +1,64 @@
+<!--NOTE: Replace all of the uppercase text from glenda with your own custom content-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ch 14 Mouse Tail</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: white;
+            background-color: #333;
+            font-size: 11px;
+            margin: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        .dot {
+            height: 8px;
+            width: 8px;
+            border-radius: 4px;
+            /* rounds corners */
+            background: blue;
+            position: absolute;
+        }
+    </style>
+    <script>
+        addEventListener("mousemove", function(event) {
+            var elements = document.querySelectorAll('div');
+            console.log(elements.length);
+
+
+
+                elements[0].style.left = (event.pageX - 5) + "px";
+                elements[0].style.top = (event.pageY - 5) + "px";
+                elements[1].style.left = (event.pageX - 20) + "px";
+                elements[1].style.top = (event.pageY - 20) + "px";
+                elements[2].style.left = (event.pageX - 35) + "px";
+                elements[2].style.top = (event.pageY - 35) + "px";
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <h1>Ch 14 Mouse Tail</h1>
+    <h2>Open console to see message</h2>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+
+</body>
+
+</html>
