@@ -11,31 +11,6 @@
 
 /* HTML5 display-role reset for older browsers */
 
-@media screen and (max-width: 480px) {
-
-.header {
-  font-family: 'Lobster', cursive;
-  font-size: 1.3em;
-  color: white;
-}
-
-p {
-  font-family: 'Josefin Slab', serif;
-  color: white;
-  background-color: #60caff;
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 120%;
-  margin-top: 3%;
-}
-
-header {
-  text-align: center;
-  width: 50%;
-  margin-top: 70px;
-}
-}
-
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, section {
   display: block;
 }
@@ -72,7 +47,7 @@ table {
 
 .header {
   font-family: 'Lobster', cursive;
-  font-size: 2.3em;
+  font-size: 1.5em;
   color: white;
 }
 
@@ -80,16 +55,19 @@ p {
   font-family: 'Josefin Slab', serif;
   color: white;
   background-color: #60caff;
-  text-align: center;
-  font-size: 2.5em;
-  line-height: 120%;
-  margin-top: 3%;
+  text-align: left;
+  font-size: 1.7em;
+  line-height: 140%;
+  margin-top: -9%;
+  margin-left: 50%;
 }
 
 header {
-  text-align: center;
+  text-align: left;
   width: 100%;
   margin-top: 70px;
+  margin-left: 5%;
+
 }
 
 #main {
@@ -116,10 +94,10 @@ li {
 
 nav {
   bottom: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
-  border-color: white;
   text-align: center;
+  height:20px;
 }
 
 #numDays, #numHours, #numMin {
@@ -131,15 +109,15 @@ nav {
   background-color: white;
   color: black;
   font-family: 'Josefin Slab', serif;
-  font-size: 1em;
+  font-size: 0.8em;
   border-radius: 15px;
-  padding: 20px;
-  width: 200px;
+  padding: 10px;
+  width: 100px;
 }
 
 figure {
   float: left;
-  width:20%;
+  margin-left:50px;
 }
 
 figcaption {
@@ -151,7 +129,28 @@ figcaption {
   display: none;
 }
 
+#surf1Tip,#surf2Tip{
+	margin-top:-400px;
+	margin-left:-90px;
+}
+
 #palmTip {
-  margin-top: -600px;
-  margin-left: 80px;
+  margin-top: -200px;
+}
+
+#surf1,#surf2{
+	height:400px;
+}
+
+#palm{
+	height:400px;
+}
+
+#glass{
+	margin-top:50px;
+}
+
+#glassTip{
+	margin-top:-100px;
+	margin-left:-50px;
 }
