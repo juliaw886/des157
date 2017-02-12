@@ -44,7 +44,6 @@ body {
   line-height: 1;
   color: white;
   background-color: #60caff;
-  width:800px;
 }
 
 ol, ul {
@@ -140,7 +139,7 @@ nav {
 
 figure {
   float: left;
-   height:30%;
+  width:20%;
 }
 
 figcaption {
