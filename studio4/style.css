@@ -99,7 +99,7 @@ header {
 a {
   font-family: 'Lobster', cursive;
   color: white;
-  font-size: 3em;
+  font-size: 1em;
   background-color: #60caff;
   text-decoration: none;
 }
@@ -118,7 +118,6 @@ nav {
   bottom: 0;
   position: fixed;
   width: 100%;
-  background-color: #60caff;
   border-color: white;
   text-align: center;
 }
