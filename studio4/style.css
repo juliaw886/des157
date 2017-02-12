@@ -11,6 +11,31 @@
 
 /* HTML5 display-role reset for older browsers */
 
+@media screen and (max-width: 480px) {
+
+.header {
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
+  color: white;
+}
+
+p {
+  font-family: 'Josefin Slab', serif;
+  color: white;
+  background-color: #60caff;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 120%;
+  margin-top: 3%;
+}
+
+header {
+  text-align: center;
+  width: 50%;
+  margin-top: 70px;
+}
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, section {
   display: block;
 }
