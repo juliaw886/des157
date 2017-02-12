@@ -125,7 +125,7 @@ figcaption {
   margin-top: 20px;
 }
 
-#palmTip, #surf1Tip, #surf2Tip {
+#palmTip, #surf1Tip, #surf2Tip,#glassTip {
   display: none;
 }
 
