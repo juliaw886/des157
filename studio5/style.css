@@ -30,7 +30,7 @@ h1 {
 	height:700px;
 }
 
-#box{
+.box{
 	width:700px;
 	height:500px;
 	color:white;
@@ -116,10 +116,17 @@ li{
 	color:white;
 	position:relative;
 	left:550px;
-	height:40px;
+	height:30px;
 	background-color:#241598;
 	border-radius:15px;
 	text-align:center;
+}
+
+nav a{
+	color:white;
+	text-align:center;
+	font-family:'Open Sans Condensed', sans-serif;
+	padding:10px;
 }
 
 .displayNone{
