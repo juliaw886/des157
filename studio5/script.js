@@ -3,10 +3,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 var title=document.getElementById('title');
-var answer;
-var correctBox=document.getElementById('correct');
-var wrongBox=document.getElementById('wrong');
-var nextButton=document.getElementById('nextButton');
 
 document.getElementById("field1a").onclick = function() {checkAnswer()};
 document.getElementById("field1b").onclick = function() {checkAnswer()};
@@ -29,7 +25,7 @@ title.addEventListener('mouseover',function(){
 })
 
 function checkAnswer(){
-	showAnswer.className="displayBlock";
+	showAnswer1.className="displayBlock";
 }
 
 function checkAnswer2(){
@@ -40,11 +36,19 @@ function checkAnswer3(){
 	showAnswer3.className="displayBlock";
 }
 
-function correctAns(){
-	correctBox.className="displayBlock animated bounceInLeft";
-}
+document.getElementById('field1a').addEventListener('mouseover', function(){document.getElementById('field1a').className="animated tada"});
+document.getElementById('field1b').addEventListener('mouseover', function(){document.getElementById('field1b').className="animated tada"});
+document.getElementById('field1c').addEventListener('mouseover', function(){document.getElementById('field1c').className="animated tada"});
+document.getElementById('field1d').addEventListener('mouseover', function(){document.getElementById('field1d').className="animated tada"});
 
-function wrongAns(){
-	wrongBox.className="displayBlock animated bounceInLeft";
-}
+document.getElementById('field2a').addEventListener('mouseover', function(){document.getElementById('field2a').className="animated tada"});
+document.getElementById('field2b').addEventListener('mouseover', function(){document.getElementById('field2b').className="animated tada"});
+document.getElementById('field2c').addEventListener('mouseover', function(){document.getElementById('field2c').className="animated tada"});
+document.getElementById('field2d').addEventListener('mouseover', function(){document.getElementById('field2d').className="animated tada"});
+
+document.getElementById('field3a').addEventListener('mouseover', function(){document.getElementById('field3a').className="animated tada"});
+document.getElementById('field3b').addEventListener('mouseover', function(){document.getElementById('field3b').className="animated tada"});
+document.getElementById('field3c').addEventListener('mouseover', function(){document.getElementById('field3c').className="animated tada"});
+document.getElementById('field3d').addEventListener('mouseover', function(){document.getElementById('field3d').className="animated tada"});
+
 });
