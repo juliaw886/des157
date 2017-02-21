@@ -8,13 +8,14 @@ body {
   background-color: #241598;
 }
 
-section{
-	max-width:1300px;
-	margin:auto;
+section {
+  max-width: 1300px;
+  margin: auto;
 }
-#page1,#page2,#page3,#page4,#page5 {
+
+#page1, #page2, #page3, #page4, #page5 {
   height: 700px;
-  width:100%;
+  width: 100%;
 }
 
 h1 {
@@ -26,113 +27,113 @@ h1 {
   padding-top: 20%;
 }
 
-#page2{
-	height:700px;
+#page2 {
+  height: 700px;
 }
 
-.box{
-	width:700px;
-	height:500px;
-	color:white;
-	background-color:white;
-	margin-left:auto;
-	margin-right:auto;
-	position:relative;
-	top:18%;
+.box {
+  width: 700px;
+  height: 500px;
+  color: white;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 18%;
 }
 
-h3{
-	color:black;
-	font-family:'Lora', serif;
-	text-align:center;
-	padding-top:15%;
+h3 {
+  color: black;
+  font-family: 'Lora', serif;
+  text-align: center;
+  padding-top: 15%;
 }
 
-ul{
-	color:black;
-	list-style-type:none;
-	height:50%;
-	left:50px;
-	position:relative;
+ul {
+  color: black;
+  list-style-type: none;
+  height: 50%;
+  left: 50px;
+  position: relative;
 }
 
-li{
-	float:left;
-	font-family:'Open Sans Condensed', sans-serif;
-	font-size:1.2em;
-	padding:50px;
-	width:200px;
+li {
+  float: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2em;
+  padding: 50px;
+  width: 200px;
 }
 
-#correct, #wrong{
-	font-family:'League Script', cursive;
-	color:#241598;
-	width:600px;
-	height:200px;
-	margin:auto;
-	text-align:center;
+#correct, #wrong {
+  font-family: 'League Script', cursive;
+  color: #241598;
+  width: 600px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
 }
 
-#correct p{
-	position:relative;
-	font-size:3em;
+#correct p {
+  position: relative;
+  font-size: 3em;
 }
 
-#wrong p{
-	position:relative;
-	top:-20px;
-	font-size:2em;
+#wrong p {
+  position: relative;
+  top: -20px;
+  font-size: 2em;
 }
 
-#nextButton{
-	color:black;
-	background-color:yellow;
-	position:relative;
-	width:150px;
-	top:-100px;
-	left:450px;
-	font-size:1.3em;
+#nextButton {
+  color: black;
+  background-color: yellow;
+  position: relative;
+  width: 150px;
+  top: -100px;
+  left: 450px;
+  font-size: 1.3em;
 }
 
-#arrow,#arrow1,#arrow2,#arrow3{
-	position:relative;
-	left:50%;
-	margin:auto;
+#arrow, #arrow1, #arrow2, #arrow3 {
+  position: relative;
+  left: 50%;
+  margin: auto;
 }
 
-#end{
-	font-size:4em;
-	font-family:'League Script', cursive;
-	color:#241598;
-	position:relative;
-	margin:auto;
-	text-align:center;
-	padding-top:30%;
+#end {
+  font-size: 4em;
+  font-family: 'League Script', cursive;
+  color: #241598;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding-top: 30%;
 }
 
-#showAnswer3,#showAnswer1,#showAnswer2{
-	width:200px;
-	font-family:'Open Sans Condensed', sans-serif;
-	color:white;
-	position:relative;
-	left:550px;
-	height:30px;
-	background-color:#241598;
-	border-radius:15px;
-	text-align:center;
+#showAnswer3, #showAnswer1, #showAnswer2 {
+  width: 200px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  position: relative;
+  left: 550px;
+  height: 30px;
+  background-color: #241598;
+  border-radius: 15px;
+  text-align: center;
 }
 
-nav a{
-	color:white;
-	text-align:center;
-	font-family:'Open Sans Condensed', sans-serif;
-	padding:10px;
+nav a {
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 10px;
 }
 
-.displayNone{
-display:none;
+.displayNone {
+  display: none;
 }
 
-.displayBlock{
-	display:block;
+.displayBlock {
+  display: block;
 }
