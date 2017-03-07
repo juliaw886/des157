@@ -1,0 +1,65 @@
+#page1, #page2 {
+  height: 800px;
+  text-align: center;
+}
+
+#page3 {
+	height:800px;
+	text-align:center;
+}
+
+#image1{
+	height:500px;
+	width:800px;
+	background-color:blue;
+	margin:auto;
+}
+
+p{
+	margin-top:40px;
+}
+
+#page1text{
+	font-family:'Knewave', cursive;
+	font-size:5em;
+	text-align:left;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:100px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+	background-color:white;
+}
+
+nav li {
+    float: left;
+	width:33%;
+	text-align:center;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#page3 ul{
+	list-style-type: none;
+}
+
+#page3 li{
+	padding:3%;
+}
+
+#page3 li a{
+	font-family:arial;
+	font-size:3em;
+}
