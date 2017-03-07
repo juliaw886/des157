@@ -1,0 +1,43 @@
+ul {
+	    list-style-type: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+	background-color:white;
+}
+
+nav li {
+    float: left;
+	width:33%;
+	text-align:center;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+p{
+	margin-top:100px;
+	font-family:'Knewave', cursive;
+	font-size:5em;
+	margin-left:15%;
+}
+
+#brands li{
+	width:33%;
+	float:left;
+	text-align:center;
+	background-color:pink;
+	padding-top:100px;
+	padding-bottom:100px;
+}
