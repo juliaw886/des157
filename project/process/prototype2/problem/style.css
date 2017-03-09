@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url('../fonts/cocogoose_trial-webfont.woff2') format('woff2'), url('../fonts/cocogoose_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+#page1, #page2, #page3 {
+  text-align: center;
+  margin-bottom:10%;
+}
+
+#image1{
+	margin:auto;
+}
+
+#page2 p{
+	margin-top:40px;
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:3.5em;
+}
+
+#page1text{
+	font-family:'Knewave', cursive;
+	font-size:5em;
+	text-align:left;
+	margin-left:10%;
+	margin-right:10%;
+	line-height:200%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+	background-color:black;
+}
+
+nav li {
+    float: left;
+	width:33%;
+	text-align:center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+	font-family:'PT Sans Narrow', sans-serif;
+}
+
+#page3 ul{
+	list-style-type: none;
+	text-align:left;
+}
+
+#page3 li{
+	padding:0%;
+	margin-top:5%;
+}
+
+#page3 li a{
+	font-family:cocogooseregular;
+	font-size:3em;
+	color:white;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+#inequality {
+	background-color:#10b5f2;
+}
+
+#environment {
+	background-color:#f3f531;
+}
+
+#working {
+	background-color:#ff9c00;
+}
