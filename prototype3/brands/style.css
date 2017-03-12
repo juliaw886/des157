@@ -1,0 +1,83 @@
+body {
+  top: 10%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+  margin-top: 100px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align:center;
+  font-size: 5em;
+}
+
+#brands li {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  width: 100px;
+}
+
+#brands a {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: red;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+#everlane {
+  background-image: url("images/everlane_image.jpg");
+  width: 33%;
+  height: 300px;
+  float: left;
+}
+
+#reformation {
+  background-image: url("images/reformation_image.jpg");
+  width: 33%;
+  height: 300px;
+  float: left;
+}
+
+#patagonia {
+  background-image: url("images/patagonia_image.jpg");
+  width: 33%;
+  height: 300px;
+  float: left;
+}
+
+.logo {
+  font-family: 'Knewave', cursive;
+  font-size: 1.2em;
+  color: white;
+  padding-top: 15px;
+}

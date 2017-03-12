@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url('fonts/cocogoose_trial-webfont.woff2') format('woff2'), url('fonts/cocogoose_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  top: 10%;
+  margin: auto;
+}
+
+#text{
+	height:100%;
+	margin-top:10%;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+  font-family: 'Knewave', cursive;
+  font-size: 5em;
+  text-align:center;
+  color:#ee1c4e;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+p{
+	width:50%;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	position:relative;
+	margin-left:25%;
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:1.5em;
+	line-height:150%;
+	}
+
+#portal a{
+	margin:auto;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.logo {
+  font-family: 'Knewave', cursive;
+  font-size: 1.2em;
+  color: white;
+  padding-top: 15px;
+}
+
+#problem, #brands{
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding:20px;
+  background-color:white;
+  color:red;
+  width:50%;
+  margin-left:23%;
+  text-decoration:none;
+}
+
+#nav2{
+	width:50%;
+	margin-left:25%;
+	margin-top:5%;
+}
