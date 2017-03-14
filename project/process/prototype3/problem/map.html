@@ -24,10 +24,11 @@
 	var savar = {lat: 23.846111, lng: 90.2575};
 	var dhaka = {lat: 23.875845, lng: 90.375970};
 	var newDelhi = {lat: 28.644800, lng: 77.216721};
+	var vietnam = {lat: 13.962154, lng: 107.8298465};
     function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 23.846111, lng: 90.2575},
-          zoom: 5
+          zoom: 3,
         });
 
 	var RanaPlaza = '<div id="content">'+
@@ -55,11 +56,33 @@
       '</div>'+
       '<h1 id="firstHeading" class="firstHeading">New Delhi Factory Fire</h1>'+
       '<div id="bodyContent">'+
-      '<p>An illegal New Delhi factory, occurred in November 2016.</p>'+
+      '<p>An illegal New Delhi factory, occurred in November 2016. India supplies clothing to chains such as GAP, H&M, and Walmart. </p>'+
       '<p>Attribution: New Delhi <a href="http://www.aljazeera.com/news/2016/11/fire-kills-factory-workers-india-sahibabad-161111072912321.html">'+
       'Aljazeeera</a> '+
       '</div>'+
       '</div>';
+	  var Vietnam = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Sweatshop Scandal</h1>'+
+      '<div id="bodyContent">'+
+      '<p>In 1996, Nike faced a controversey surrounding the factories that manufactured their popular shoes. A report detailed the inhumane treatment Vietnamese factory workers were forced to endure. Factory managers punished workers for not wearing regulation shoes by making them run in the hot sun, only allowing them to stop once dozens has fainted. Many workers were also paid under the local minimum wage. These reports circulated in the States and sparked protests against the shoe company. There was a consumer boycott and in 1997 Nike had to layoff employees. <br><br>Things began to change when the company began to value transparency in production and fair wages for workers. It published an 108 page report about the conditions in their factories, and continues to publish reports today. <br><br>It is important to realize the affect that consumers can have on companies, and how the term "vote with your wallet" really does resonate in America.</p>'+
+      '<p>Attribution: Nike <a href="http://www.businessinsider.com/how-nike-fixed-its-sweatshop-image-2015-6">'+
+      'Business Insider</a> '+
+      '</div>'+
+      '</div>';
+	  var marker4 = new google.maps.Marker({
+		position: vietnam,
+		map: map,
+		title: '1996 Nike Factory'
+	  });
+	  var infowindow4 = new google.maps.InfoWindow({
+		content: Vietnam,
+		maxWidth: 500
+	});
+	  marker4.addListener('click', function() {
+		infowindow4.open(map, marker4);
+	});
 	  var marker = new google.maps.Marker({
 		position: savar,
 		map: map,
