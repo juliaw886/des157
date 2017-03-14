@@ -119,6 +119,22 @@ nav li a {
 	color:red;
 }
 
+#treesText{
+	font-family:cocogooseregular;
+	font-size:2em;
+	position:absolute;
+	text-align:center;
+	margin-top:200px;
+	width:60%;
+	margin-left:20%;
+	margin-top:0px;
+}
+
+#treeImage{
+	width:60%;
+	margin-left:20%;
+}
+
 #waterText, #polyesterText{
 
 	font-family:cocogooseregular;
@@ -126,7 +142,18 @@ nav li a {
 	position:absolute;
 	right:10%;
 	width:40%;
-	margin-top:15%;
+	margin-top:200px;
+}
+
+#wasteText{
+
+	font-family:cocogooseregular;
+	font-size:2em;
+	position:absolute;
+	right:20%;
+	text-align:center;
+	width:60%;
+	margin-top:200px;
 }
 
 #page1text {
@@ -136,7 +163,7 @@ nav li a {
 	width:40%;
 	right:0;
 	text-align:center;
-	margin-top:8%;
+	margin-top:100px;
 }
 
 #imageLanding{
@@ -151,7 +178,7 @@ nav li a {
 	margin-right:10%;
 	margin-left:10%;
 }
-#waterPage,#polyesterPage,#page1, #page3{
+#waterPage,#polyesterPage,#treesPage,#page1, #page3,#wastePage{
 	height:800px;
 	margin-top:10%;
 }
@@ -162,22 +189,46 @@ nav li a {
 	text-align:center;
 }
 
+#treesCitation {
+	font-size:1.3em;
+	margin-top:700px;
+	right:50%;
+	position:absolute;
+}
+
 #waterCitation{
 	font-size:1.3em;
 	margin-top:30%;
 	position:absolute;
-
+	
 }
 
-#polyesterCitation{
+#polyesterCitation,#wasteCitation{
 	font-size:1.3em;
 	position:relative;
+	position:absolute;
+	right:40%;
+	margin-top:500px;
 }
 
 #waterArrow{
 	margin-top:600px;
 	
 }
+#treesArrow{
+	margin-top:760px;
+	position:absolute;
+	right:50%;
+}
+#wasteArrow{
+	position:absolute;
+	right:50%;
+	margin-top:600px;
+}
+#polyesterArrow{
+	margin-top:600px;
+	position:absolute;
+	right:50%;}
 
 #problemArrow1{
 	margin-top:550px;
@@ -187,4 +238,21 @@ nav li a {
 	position:absolute;
 	width:100px;
 	margin-top:-450px;
+}
+#construction{
+	text-align:center;
+	font-family:cocogooseregular;
+	margin-top:100px;
+}
+#cupcake{
+	position:relative;
+	left:30%;
+}
+
+#polyesterImage{
+	width:35%;
+	margin-top:200px;
+	float:left;
+	margin-right:10%;
+	margin-left:10%;
 }
