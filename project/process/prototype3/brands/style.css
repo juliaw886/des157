@@ -157,6 +157,8 @@ nav li a {
 	text-align:left;
 	width:80%;
 	margin-left:10%;
+	position:absolute;
+	margin-top:450px;
 }
 .comparison a{
 	text-decoration:none;
