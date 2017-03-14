@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Prototype</title>
+    <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="script.js" type="text/javascript"></script>
+
+	
+</head>
+
+<body>
+	<a href="problem.html#page3" id="workplaceBack">Back</a>
+	<p id="mapHeader">Poor Record For Workplace Safety</p>
+	<p id="mapText">Each marker represents an incident that occurred in a garment factory. Click on the markers to read more about what happened and what the working conditions are like in each region.</p>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZVBuEmtYlrHi50VAWHw6U9itvTcgsBIM&callback=initMap"
+    async defer></script>
+    <script>
+	var savar = {lat: 23.846111, lng: 90.2575};
+	var dhaka = {lat: 23.875845, lng: 90.375970};
+	var newDelhi = {lat: 28.644800, lng: 77.216721};
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 23.846111, lng: 90.2575},
+          zoom: 5
+        });
+
+	var RanaPlaza = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Rana Plaza Collapse</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Rana Plaza collapse</b>, occurred in April 2013 and is considered one of the deadliest garment factory collapses. The death toll reached 1,129, and over two-thousand people were injured, creating headlines around the world and leading to calls for increased protection of factory workers.</p>'+
+      '<p>Attribution: Rana Plaza Factory collapse  <a href="https://en.wikipedia.org/wiki/2013_Savar_building_collapse">'+
+      'Wikipedia</a> '+
+      '</div>'+
+      '</div>';
+	  var Dhaka = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Dhaka Factory Fire</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Dhaka factory fire</b>, occurred in November 2012 and affected a seven-story garment factory. Factory workers in Bangladesh not only have to work in unsafe environments, but are also often underpaid. A <a href="http://www.wiego.org/publications/cost-women-workers-precarious-employment-bangladesh">2003 study</a> found that female garment factory workers worked an average of 80 hour a week overtime and were paid 60 to 80 cents less per hour.</p>'+
+      '<p>Attribution: Dhaka  <a href="http://abcnews.go.com/Blotter/photos/bangladesh-garment-factory-fire-17804552/image-17804660">'+
+      'ABC News</a> '+
+      '</div>'+
+      '</div>';
+	  var NewDelhi = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">New Delhi Factory Fire</h1>'+
+      '<div id="bodyContent">'+
+      '<p>An illegal New Delhi factory, occurred in November 2016.</p>'+
+      '<p>Attribution: New Delhi <a href="http://www.aljazeera.com/news/2016/11/fire-kills-factory-workers-india-sahibabad-161111072912321.html">'+
+      'Aljazeeera</a> '+
+      '</div>'+
+      '</div>';
+	  var marker = new google.maps.Marker({
+		position: savar,
+		map: map,
+		title: '2013 Rana Plaza Factory'
+	  });
+	  var marker2 = new google.maps.Marker({
+		position: dhaka,
+		map: map,
+		title: 'Dhaka'
+	  });
+	  var marker3 = new google.maps.Marker({
+		position: newDelhi,
+		map: map,
+		title: '2016 New Delhi'
+	  });
+
+	marker.addListener('click', function() {
+		infowindow.open(map, marker);
+	});
+
+	marker3.addListener('click', function() {
+		infowindow3.open(map, marker3);
+	});
+    var infowindow = new google.maps.InfoWindow({
+		content: RanaPlaza,
+		maxWidth: 500
+	});
+	var infowindow2 = new google.maps.InfoWindow({
+		content: Dhaka,
+		maxWidth: 500
+	});
+	marker2.addListener('click', function() {
+		infowindow2.open(map, marker2);
+	});
+	var infowindow3 = new google.maps.InfoWindow({
+		content: NewDelhi,
+		maxWidth: 500
+	});
+      }
+	  
+    </script>
+	
+	<div id="map"></div>
+	
+    <nav>
+        <ul>
+            <li class="logo">Fast Fashion</li>
+			<li><a href="../index.html">Home</a></li>
+            <li><a href="../problem/problem.html">Problem</a></li>
+            <li><a href="../brands/index.html">Brands</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
