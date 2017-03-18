@@ -226,11 +226,11 @@ nav li a {
 #patagoniaClothes{
 	margin-top:600px;
 }
-
 footer{
-	margin-bottom:10px;
-	right:10px;
+	left:10px;
 	background-color:white;
+	position:absolute;
+	top:1400px;
 }
 footer a{
 	color:red;
@@ -241,5 +241,8 @@ footer a{
 }
 footer ul{
 	list-style-type:none;
-	display:inline;
+}
+
+#indexFooter{
+	top:1200px;
 }
