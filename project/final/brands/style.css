@@ -1,0 +1,267 @@
+body {
+  top: 10%;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url('../fonts/cocogoose_trial-webfont.woff2') format('woff2'), url('../fonts/cocogoose_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#callout p{
+	font-family:cocogooseregular;
+	font-size:2em;
+	margin-top: 100px;
+	text-align:center;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#brands div {
+  text-align: left;
+  width: 33%;
+  height: 300px;
+  float: left;
+}
+
+#brands a {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: red;
+  text-decoration: none;
+  font-size: 1.3em;
+  background-color: white;
+  float:left;
+  padding: 10px 10px 10px 10px;
+}
+
+#brands a:hover{
+	text-decoration:underline;
+}
+
+.subheader a:hover{
+	text-decoration:underline;
+}
+
+.comparison a:hover{
+	text-decoration:underline;
+}
+
+.brand a:hover{
+	text-decoration:underline;
+}
+
+#miniMioche{
+  background-image: url("images/mini_mioche.jpg");
+}
+
+#zara{
+  background-image: url("images/zara_image.jpg");
+}
+
+#aa{
+  background-image: url("images/aa_image.jpg");
+}
+
+#nisolo{
+  background-image: url("images/nisolo_image.jpg");
+}
+
+#everlane {
+  background-image: url("images/everlane_image.jpg");
+}
+
+#reformation {
+  background-image: url("images/reformation_image.jpg");
+}
+
+#patagonia {
+  background-image: url("images/patagonia_image.jpg");
+}
+
+.logo {
+  font-family: 'Knewave', cursive;
+  font-size: 1.2em;
+  color: white;
+  padding-top: 15px;
+}
+#explanation {
+	font-family:cocogooseregular;
+	font-size:1em;
+	text-align:center;
+	width:40%;
+	margin-left:30%;
+}
+
+#reformationTitle,#patagoniaTitle,#everlaneTitle,#nisoloTitle,#aaTitle{
+	width:40%;
+	margin-left:30%;
+	margin-top:100px;
+}
+
+.workplaceBack {
+	position:fixed;
+	font-family:'PT Sans', sans-serif;
+	font-size:1em;
+	float:left;
+	margin-left:5%;
+	color:black;
+	text-decoration:none;
+	margin-top:100px;
+}
+
+.clothes{
+	width:90%;
+	margin-left:5%;
+	margin-top:500px;
+}
+.clothes img{
+	float:left;
+	padding-right:3%;
+	padding-left:3%;
+	width:25%;
+}
+.question{
+	font-family:cocogooseregular;
+	font-size:1.5em;
+	text-align:center;
+}
+.answer a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	color:red;
+	padding-right:20px;
+	font-size:1.3em;
+	text-decoration:none;
+}
+.subheader{
+	width:60%;
+	margin-left:20%;
+	text-align:center;
+}
+.industry{
+	float:left;
+	width:35%;
+	margin-left:20%;
+	margin-right:10%;
+}
+.brand{
+	float:left;
+	width:35%;
+}
+.comparison {
+	font-family:'PT Sans Narrow', sans-serif;
+	text-align:left;
+	width:80%;
+	margin-left:10%;
+	position:absolute;
+	top:500px;
+	z-index:-1;
+}
+.comparison a{
+	text-decoration:none;
+	color:red;
+}
+.comparison li{
+	margin-bottom:20px;
+}
+
+#title{
+	display:block;
+}
+
+.brandTitle{
+	font-family:cocogooseregular;
+	font-size:1.5em;
+	width:20%;
+	margin-left:10%;
+}
+.vs{
+	font-family:cocogooseregular;
+	font-size:1.5em;
+	width:20%;
+	padding:20%;
+}
+
+.industryTitle{
+	font-family:cocogooseregular;
+	font-size:1.5em;
+	width:20%;
+}
+
+#nisoloClothes{
+	margin-top:650px;
+}
+
+#patagoniaClothes{
+	margin-top:600px;
+}
+
+footer{
+	left:10px;
+	background-color:white;
+	position:absolute;
+	top:1400px;
+}
+footer a{
+	color:red;
+	text-decoration:none;
+	font-family:'PT Sans', sans-serif;
+	float:left;
+	margin-left:10px;
+}
+footer ul{
+	list-style-type:none;
+}
+
+#indexFooter{
+	top:1200px;
+}
+
+.aaTitle{
+	font-family:cocogooseregular;
+	font-size:1.5em;
+	width:20%;
+	margin-left:5%;
+}
+
+.aavs{
+	font-family:cocogooseregular;
+	font-size:1.5em;
+	width:20%;
+	padding:15%;
+}
+
+.aaTitle{
+	font-family:cocogooseregular;
+	font-size:1.5em;
+	width:20%;
+}
