@@ -109,10 +109,10 @@ nav li a {
   text-decoration: underline;
 }
 footer {
-  right:0;
-  bottom:0;
-  position:absolute;
-  padding:0.2em;
+  left:10px;
+	background-color:white;
+	position:absolute;
+	top:1400px;
 }
 footer a {
   color: black;
