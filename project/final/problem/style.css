@@ -38,6 +38,10 @@ body{
   font-size: 2em;
 }
 
+#imageLanding{
+  margin-top:30px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
