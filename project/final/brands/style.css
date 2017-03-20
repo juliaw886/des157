@@ -186,6 +186,7 @@ nav li a {
 	position:absolute;
 	top:500px;
 	z-index:-1;
+	margin-top:50px;
 }
 .comparison a{
 	text-decoration:none;
