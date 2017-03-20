@@ -25,14 +25,6 @@
   right: 33%;
 }
 
-//*.displayNone {
-display:none;
-
-}
-* //
-.displayBlock {
-  display: block;
-}
 body {
   height: 100%;
   top: 10%;
