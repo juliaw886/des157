@@ -240,13 +240,10 @@ footer a{
 	text-decoration:none;
 	font-family:'PT Sans', sans-serif;
 	margin-left:10px;
+	font-size:0.5em
 }
 footer ul{
 	list-style-type:none;
-}
-
-footer ul li{
-	display:inline;
 }
 
 #indexFooter{
