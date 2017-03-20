@@ -142,6 +142,7 @@ nav li a {
 .clothes{
 	width:90%;
 	margin-left:5%;
+	position:absolute;
 	margin-top:400px;
 }
 .clothes img{
@@ -186,7 +187,6 @@ nav li a {
 	position:absolute;
 	top:500px;
 	z-index:-1;
-	margin-top:100px;
 }
 .comparison a{
 	text-decoration:none;
@@ -220,29 +220,29 @@ nav li a {
 }
 
 #nisoloClothes{
-	margin-top:600px;
-}
-
-#patagoniaClothes{
-	margin-top:500px;
+	margin-top:550px;
 }
 
 footer{
+	left:0;
+	bottom:0;
 	right:0;
-	bottom: 0;
-  	left: 0;
 	position:absolute;
-	padding:0.2em;
+	margin-top:100px;
+	top:1300px;
 }
 footer a{
-	color:black;
+	color:red;
 	text-decoration:none;
 	font-family:'PT Sans', sans-serif;
-	float:left;
 	margin-left:10px;
 }
 footer ul{
 	list-style-type:none;
+}
+
+footer ul li{
+	display:inline;
 }
 
 #indexFooter{
