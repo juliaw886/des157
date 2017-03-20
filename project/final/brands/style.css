@@ -220,7 +220,7 @@ nav li a {
 }
 
 #nisoloClothes{
-	margin-top:650px;
+	margin-top:600px;
 }
 
 #patagoniaClothes{
@@ -228,13 +228,14 @@ nav li a {
 }
 
 footer{
-	left:10px;
-	background-color:white;
+	right:0;
+	bottom: 0;
+  	left: 0;
 	position:absolute;
-	top:1400px;
+	padding:0.2em;
 }
 footer a{
-	color:red;
+	color:black;
 	text-decoration:none;
 	font-family:'PT Sans', sans-serif;
 	float:left;
