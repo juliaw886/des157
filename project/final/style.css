@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url('fonts/cocogoose_trial-webfont.woff2') format('woff2'), url('fonts/cocogoose_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#brandsToolTip, #problemToolTip {
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:1em;
+	width:100px;
+	line-height:110%;
+	background-color:white;
+	padding:15px;
+	position:absolute;
+	opacity:0;
+	bottom:75%;
+}
+
+#brandsToolTip{
+	right:8%;
+}
+
+#problemToolTip{
+	right:33%;
+}
+
+//*.displayNone {
+	display:none;
+}*//
+
+.displayBlock{
+	display:block;
+}
+
+body {
+  height:100%;
+  background-image:url("images/background.svg");
+  top: 10%;
+  margin: auto;
+}
+
+#text{
+	height:100%;
+	margin-top:10%;
+}
+
+#wholetitle{
+	width:55%;
+	margin:auto;
+	text-align:center;
+	margin-top:20px;
+}
+
+#title {
+  font-family: 'Knewave', cursive;
+  font-size: 4em;
+  text-align:center;
+}
+
+.title1{
+	font-family:cocogooseregular;
+	font-size:3em;
+	text-align:center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.tooltip{
+	width:50%;
+	padding:20px;
+	background-color:white;
+	text-align:center;
+	position:relative;
+	margin-left:25%;
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:1.5em;
+	line-height:150%;
+	}
+	
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.logo {
+  font-family: 'Knewave', cursive;
+  font-size: 1.2em;
+  color: white;
+  padding-top: 15px;
+}
+
+#nav2{
+	width:100%;
+	margin:auto;
+	padding-top:50px;
+}
+
+#problem,#brands{
+	padding-left:20%;
+}
+
+#nav2 a{
+	font-family:cocogooseregular;
+	text-decoration:none;
+	color:black;
+	font-size:2em;
+	text-transform:uppercase;
+}
+
+#nav2 a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+footer{
+	background-color:white;
+	padding-top:30px;
+	right:10px;
+}
+footer a{
+	color:red;
+	text-decoration:none;
+	font-family:'PT Sans', sans-serif;
+	float:left;
+	margin-left:10px;
+}
+footer ul{
+	list-style-type:none;
+	display:inline;
+}
+
+#top img{
+	width:12%;
+	padding-left:14%;
+	z-index:-1;
+}
+
+#bottom img{
+	width:12%;
+	padding-left:14%;
+	z-index:-1;
+}
+
+#tag{
+	height:45%;
+	transform: rotate(45deg);
+	position:absolute;
+	right:100px;
+	bottom:300px;
+}
+
+#tag2{
+	height:40%;
+	transform: rotate(45deg);
+	position:absolute;
+	right:100px;
+	bottom:100px;
+}
